@@ -1,0 +1,1 @@
+15 0 * * * ruby /opt/cronjobs/yiichina-auto-sign/registration.rb >> /dev/null 2>&1
