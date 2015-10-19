@@ -2,7 +2,7 @@ FROM ruby:2.2.0
 MAINTAINER Francis <francis.tm@gmail.com>
 
 ADD inc/crontab /etc/
-ADD inc/cron-start /usr/bin
+ADD inc/cron-start /usr/bin/
 ADD inc/sources.list /etc/apt/
 
 RUN apt-get update -qq && apt-get install -y git rsyslog
