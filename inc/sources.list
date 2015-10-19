@@ -1,8 +1,3 @@
-deb http://ftp.us.debian.org/debian/ jessie main non-free contrib
-deb http://ftp.us.debian.org/debian/ jessie-updates main non-free contrib
-deb http://ftp.us.debian.org/debian/ jessie-backports main non-free contrib
-deb-src http://ftp.us.debian.org/debian/ jessie main non-free contrib
-deb-src http://ftp.us.debian.org/debian/ jessie-updates main non-free contrib
-deb-src http://ftp.us.debian.org/debian/ jessie-backports main non-free contrib
-deb http://ftp.us.debian.org/debian-security/ jessie/updates main non-free contrib
-deb-src http://ftp.us.debian.org/debian-security/ jessie/updates main non-free contrib
+deb http://ftp.us.debian.org/debian stable main contrib non-free
+deb http://security.debian.org/ wheezy/updates main contrib non-free
+deb http://ftp.debian.org/debian/ wheezy-updates main contrib non-free
