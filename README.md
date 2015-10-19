@@ -7,4 +7,4 @@
 - Gist: <https://gist.github.com/francistm/87e89b4c7e645cedada5>
 
 ### 镜像用法
-- `root# docker run -d -e USERNAME=<username> -e PASSWORD=<password> yiichina/autosign`
+- `root# docker run -d -e USERNAME=<username> -e PASSWORD=<password> francistm/yiichina-autosign`
