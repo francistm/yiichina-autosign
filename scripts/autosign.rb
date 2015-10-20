@@ -12,7 +12,7 @@ end
 EventMachine.run do
   logger.info "Sign cron started, Press Ctrl+C to stop"
 
-  EventMachine.add_timer(86400) do
+  EventMachine.add_periodic_timer(86400) do
     site = YiiChina.new user_identity
     site.registration if site.login
   end
